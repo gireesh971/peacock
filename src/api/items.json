@@ -1,0 +1,4 @@
+[
+  { "id": 1, "name": "Devi", "category":  "Earthy line", "description": "A entwined blend of Jasmine , wood and patchouli", "image": "img-12.jpg", "price" : 12 },
+  { "id": 2, "name": "Maya", "category":  "Flowery line", "description": "Cherry blossom, lily of the valley, magnolia", "image": "img-12.jpg", "price" : 12 }
+]

@@ -1,100 +1,20 @@
+<script src="../item-detail/item-detail.component.ts"></script>
 <div class="grid">
     <div class="gutter-sizer"></div>
     <div class="grid-sizer"></div>
-
-    <div class="grid-item" float="left">
-        <img class="img-responsive" alt="" src="./assets/images/img-12.jpg">
-        <a href="src/project.html" class="project-description">
-            <div class="project-text-holder">
-                <div class="project-text-inner">
-                    <h3>Vivamus vestibulum</h3>
-                    <p>Discover more</p>
+    <div *ngFor="let item of items">
+        <div class="grid-item" float="left">
+            <img class="img-responsive" alt="" src="./assets/images/{{item.image}}">
+            <a routerLink="/detail/{{item.id}}" class="project-description">
+                <div class="project-text-holder">
+                    <div class="project-text-inner">
+                        <h3>{{item.name}}</h3>
+                        <h5>{{item.category}}</h5>
+                        <p>{{item.description}}</p>
+                    </div>
                 </div>
-            </div>
-        </a>
-    </div>
-
-
-    <div class="grid-item">
-        <img class="img-responsive" alt="" src="./assets/images/img-05.jpg">
-        <a href="src/project.html" class="project-description">
-            <div class="project-text-holder">
-                <div class="project-text-inner">
-                    <h3>Vivamus vestibulum</h3>
-                    <p>Discover more</p>
-                </div>
-            </div>
-        </a>
-    </div>
-
-    <div class="grid-item">
-        <img class="img-responsive" alt="" src="./assets/images/img-13.jpg">
-        <a href="src/project.html" class="project-description">
-            <div class="project-text-holder">
-                <div class="project-text-inner">
-                    <h3>Vivamus vestibulum</h3>
-                    <p>Discover more</p>
-                </div>
-            </div>
-        </a>
-    </div>
-    <div class="grid-item">
-        <img class="img-responsive" alt="" src="./assets/images/img-04.jpg">
-        <a href="src/project.html" class="project-description">
-            <div class="project-text-holder">
-                <div class="project-text-inner">
-                    <h3>Vivamus vestibulum</h3>
-                    <p>Discover more</p>
-                </div>
-            </div>
-        </a>
-    </div>
-
-    <div class="grid-item">
-        <img class="img-responsive" alt="" src="./assets/images/img-07.jpg">
-        <a href="src/project.html" class="project-description">
-            <div class="project-text-holder">
-                <div class="project-text-inner">
-                    <h3>Vivamus vestibulum</h3>
-                    <p>Discover more</p>
-                </div>
-            </div>
-        </a>
-    </div>
-
-    <div class="grid-item">
-        <img class="img-responsive" alt="" src="./assets/images/img-11.jpg">
-        <a href="src/project.html" class="project-description">
-            <div class="project-text-holder">
-                <div class="project-text-inner">
-                    <h3>Vivamus vestibulum</h3>
-                    <p>Discover more</p>
-                </div>
-            </div>
-        </a>
-    </div>
-
-    <div class="grid-item">
-        <img class="img-responsive" alt="" src="./assets/images/img-10.jpg">
-        <a href="src/project.html" class="project-description">
-            <div class="project-text-holder">
-                <div class="project-text-inner">
-                    <h3>Vivamus vestibulum</h3>
-                    <p>Discover more</p>
-                </div>
-            </div>
-        </a>
-    </div>
-    <div class="grid-item">
-        <img class="img-responsive" alt="" src="./assets/images/img-03.jpg">
-        <a href="src/project.html" class="project-description">
-            <div class="project-text-holder">
-                <div class="project-text-inner">
-                    <h3>Vivamus vestibulum</h3>
-                    <p>Discover more</p>
-                </div>
-            </div>
-        </a>
+            </a>
+        </div>
     </div>
 
 </div>

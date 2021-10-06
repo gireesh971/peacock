@@ -1,0 +1,15 @@
+<div class="row" *ngIf="itemDetail">
+    <div class="col-xs-10 col-md-8">
+        <h1>{{itemDetail.name}} - {{itemDetail.category}}</h1>
+
+        <img class="img-responsive" alt="" src="assets/images/{{itemDetail.image}}">
+        <p></p>
+
+        <h5>{{itemDetail.description}}</h5>
+        <p>{{itemDetail.story}}</p>
+<!--        <h3>{{itemDetail.description}}</h3>-->
+<!--        -->
+
+        <a (click)="goBack()" class="btn btn-primary" title="">Back</a>
+    </div>
+</div>
