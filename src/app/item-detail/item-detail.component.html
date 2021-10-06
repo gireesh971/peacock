@@ -2,11 +2,16 @@
     <div class="col-xs-10 col-md-8">
         <h1>{{itemDetail.name}} - {{itemDetail.category}}</h1>
 
-        <img class="img-responsive" alt="" src="assets/images/{{itemDetail.image}}">
+        <img class="img-responsive" alt="" src="assets/images/{{currentImage}}">
         <p></p>
-
-        <h5>{{itemDetail.description}}</h5>
-        <p>{{itemDetail.story}}</p>
+        <div style="float: right;">
+        <button (click)="prevImage()" class="modal-btn prev-btn">&lt;</button>
+        <button (click)="nextImage()" class="modal-btn next-btn">&gt;</button>
+        </div>
+        <blockquote>
+            <h5>{{itemDetail.description}}</h5>
+            <p>{{itemDetail.story}}</p>
+        </blockquote>
 <!--        <h3>{{itemDetail.description}}</h3>-->
 <!--        -->
 

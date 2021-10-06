@@ -4,6 +4,6 @@
   "category":  "Earthy line",
   "description": "A entwined blend of Jasmine , wood and patchouli",
   "story": "Devi means Goddess. The call for the goddess within you. She would take you to a sanatorium where you could be at peace\nFor some it could be a nostalgic walk through the temple verandah or prayer hall of a monastery where in you ran around carefree as a child",
-  "image": "img-12.jpg",
+  "images": ["img-01.jpg", "img-02.jpg", "img-03.jpg", "img-04.jpg", "img-05.jpg", "img-06.jpg", "img-07.jpg", "img-08.jpg", "img-09.jpg", "img-10.jpg", "img-11.jpg", "img-12.jpg"],
   "price": 12
 }

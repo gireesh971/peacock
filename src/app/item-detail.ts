@@ -4,6 +4,6 @@ export interface ItemDetail {
     category: string;
     description: string;
     story: string;
-    image: string;
+    images: string[];
     price: number;
 }

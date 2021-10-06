@@ -23,12 +23,38 @@ export class ItemDetailComponent implements OnInit {
   getItem(): void {
     const id = Number(this.route.snapshot.paramMap.get('id'));
     this.itemService.getItem(id)
-        .subscribe(itemDetail => this.itemDetail = itemDetail);
+        .subscribe(itemDetail => {
+          this.itemDetail = itemDetail;
+          this.currentImage = this.itemDetail.images[0];
+          this.imageIndex = 0;
+        });
   }
 
   goBack(): void {
     this.location.back();
   }
 
+  nextImage(): void {
+    if (this.itemDetail != undefined) {
+      this.imageIndex++;
+      if (this.imageIndex > this.itemDetail.images.length) {
+        this.imageIndex = 0;
+      }
+      this.currentImage = this.itemDetail.images[this.imageIndex];
+    }
+  }
+
+  prevImage(): void {
+    if (this.itemDetail != undefined) {
+      this.imageIndex--;
+      if (this.imageIndex < 0) {
+        this.imageIndex = this.itemDetail.images.length-1;
+      }
+      this.currentImage = this.itemDetail.images[this.imageIndex];
+    }
+  }
+
   itemDetail: ItemDetail | undefined;
+  currentImage: string | undefined;
+  imageIndex: number = 0;
 }
