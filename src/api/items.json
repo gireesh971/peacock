@@ -8,10 +8,10 @@
   { "id": 7, "name": "Lalita", "category":  "Fruity", "description": "Cherry blossom, lily of the valley, magnolia", "image": "fruity/lalitha/IMG_1356.jpg", "price" : 12 },
   { "id": 8, "name": "Tangy", "category":  "Fruity", "description": "Cherry blossom, lily of the valley, magnolia", "image": "fruity/tangy/IMG_1897.jpg", "price" : 12 },
   { "id": 9, "name": "Thangam", "category":  "Fruity", "description": "Cherry blossom, lily of the valley, magnolia", "image": "fruity/thangam/IMG_2001.jpg", "price" : 12 },
-  { "id": 10, "name": "Nidra", "category":  "Holidays", "description": "Cherry blossom, lily of the valley, magnolia", "image": "holidays/nidra/IMG_2001.jpg", "price" : 12 },
   { "id": 11, "name": "Sishira", "category":  "Holidays", "description": "Cherry blossom, lily of the valley, magnolia", "image": "holidays/sishira/IMG_9014.jpg", "price" : 12 },
-  { "id": 12, "name": "Chinar", "category":  "Seasonal", "description": "Cherry blossom, lily of the valley, magnolia", "image": "seasonal/chinar/IMG_2001.jpg", "price" : 12 },
-  { "id": 13, "name": "Lal", "category":  "Seasonal", "description": "Cherry blossom, lily of the valley, magnolia", "image": "seasonal/lal/IMG_2001.jpg", "price" : 12 },
-  { "id": 14, "name": "Mysterious", "category":  "Seasonal", "description": "Cherry blossom, lily of the valley, magnolia", "image": "seasonal/mysterious/IMG_2001.jpg", "price" : 12 },
-  { "id": 15, "name": "Saro", "category":  "Seasonal", "description": "Cherry blossom, lily of the valley, magnolia", "image": "seasonal/saro/IMG_2001.jpg", "price" : 12 }
+  { "id": 12, "name": "Chinaar", "category":  "Seasonal", "description": "Cherry blossom, lily of the valley, magnolia", "image": "seasonal/chinaar/IMG_1001.jpg", "price" : 12 },
+  { "id": 13, "name": "Lal", "category":  "Seasonal", "description": "Cherry blossom, lily of the valley, magnolia", "image": "seasonal/lal/IMG_1001.jpg", "price" : 12 },
+  { "id": 14, "name": "Mysterious", "category":  "Seasonal", "description": "Cherry blossom, lily of the valley, magnolia", "image": "seasonal/mysterious/IMG_8571.jpg", "price" : 12 },
+  { "id": 15, "name": "Saro", "category":  "Seasonal", "description": "Cherry blossom, lily of the valley, magnolia", "image": "seasonal/saro/IMG_1001.jpg", "price" : 12 },
+  { "id": 10, "name": "Nidra", "category":  "Holidays", "description": "Cherry blossom, lily of the valley, magnolia", "image": "holidays/nidra/IMG_2001.jpg", "price" : 12 }
 ]
