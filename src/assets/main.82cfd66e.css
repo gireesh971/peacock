@@ -3779,7 +3779,7 @@ button.close{
 }
 .grid{
     width:100%;
-    margin-top:-11px
+    margin-top:-11px;
 }
 .grid-overlay{
     position:absolute;
@@ -3793,7 +3793,8 @@ button.close{
 }
 .grid-item,.grid-sizer{
     width:100%;
-    margin-bottom:1%
+    margin-bottom:0.25%;
+    margin-right: 0.25%;
 }
 @media (min-width:768px){
     .grid-item,.grid-sizer{
@@ -3811,7 +3812,9 @@ button.close{
 .grid-item{
     position:relative;
     float: left;
-    display:block
+    display:block;
+    border-color: lavender;
+    border-style: solid;
 }
 .grid-item .project-description{
     opacity:0;
@@ -3822,7 +3825,7 @@ button.close{
     position:absolute;
     width:90%;
     top:0;
-    bottom:0;
+    bottom:23%;
     left:0;
     right:0;
     margin:5%;
@@ -4004,3 +4007,25 @@ main{
     margin-right:5px
 }
 /*# sourceMappingURL=main.85741bff.map*/
+/* Peacock Styles */
+.n_left {
+    float: left;
+    color: coral;
+    width: 40%; /* The width is 20%, by default */
+}
+
+.n_center {
+    float: left;
+    color: coral;
+    width: 40%; /* The width is 60%, by default */
+}
+
+.n_right {
+    float: right;
+    color: coral;
+    width: 10%; /* The width is 20%, by default */
+}
+
+.t_width {
+    width: 100%; /* The width is 20%, by default */
+}
