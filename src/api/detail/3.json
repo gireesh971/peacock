@@ -1,9 +1,11 @@
 {
   "id": 2,
-  "name": "Maya",
-  "category":  "Flowery line",
-  "description": "Cherry blossom, lily of the valley, magnolia",
-  "story": "Maya….she’s an illusion. A rich meadow in spring , the flowers in full bloom. You love the gentle breeze when it brings the blend of flowers and young grass. Yet you cant place which is the smell you loved the most !",
-  "image": "img-12.jpg",
+  "name": "Kanmani",
+  "category":  "Earthy line",
+  "description": "A entwined blend of Jasmine , wood and patchouli",
+  "story": "Devi means Goddess. The call for the goddess within you. She would take you to a sanatorium where you could be at peace\nFor some it could be a nostalgic walk through the temple verandah or prayer hall of a monastery where in you ran around carefree as a child",
+  "images": [
+    "earthy/swarg/IMG_4743.jpg",
+    "earthy/swarg/IMG_3677.jpg"],
   "price": 12
 }

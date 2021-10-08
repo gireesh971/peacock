@@ -1,13 +1,11 @@
 {
   "id": 2,
-  "name": "Maya",
-  "category":  "Floral line",
+  "name": "Lalitha",
+  "category":  "Fruity",
   "description": "Cherry blossom, lily of the valley, magnolia",
   "story": "Maya….she’s an illusion. A rich meadow in spring , the flowers in full bloom. You love the gentle breeze when it brings the blend of flowers and young grass. Yet you cant place which is the smell you loved the most !",
   "images": [
-    "fresh-floral/maya/IMG_9025.jpg",
-    "fresh-floral/maya/IMG_9022.jpg",
-    "fresh-floral/maya/IMG_9023.jpg"
-    ],
+    "fruity/tangy/IMG_1897.jpg",
+    "fruity/tangy/IMG_1898.jpg"],
   "price": 12
 }

@@ -9,12 +9,21 @@
                 <div class="project-text-holder">
                     <div class="project-text-inner">
                         <h3>{{item.name}}</h3>
-                        <h5>{{item.category}}</h5>
                         <p>{{item.description}}</p>
                     </div>
                 </div>
             </a>
+            <table>
+                <tr>
+                    <td><h3>{{item.name}} - {{item.category}}</h3></td>
+                    <td><h3 class="text-align">${{item.price}}</h3></td>
+                </tr>
+                <tr>
+                    <td><p>{{item.description}}</p></td>
+                </tr>
+            </table>
+
+
         </div>
     </div>
-
 </div>

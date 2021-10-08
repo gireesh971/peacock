@@ -1,0 +1,20 @@
+{
+  "id": 2,
+  "name": "Sishira",
+  "category":  "Holidays",
+  "description": "Cherry blossom, lily of the valley, magnolia",
+  "story": "Maya….she’s an illusion. A rich meadow in spring , the flowers in full bloom. You love the gentle breeze when it brings the blend of flowers and young grass. Yet you cant place which is the smell you loved the most !",
+  "images": [
+    "holidays/sishira/IMG_9014.jpg",
+    "holidays/sishira/IMG_9010.jpg",
+    "holidays/sishira/IMG_9011.jpg",
+    "holidays/sishira/IMG_9012.jpg",
+    "holidays/sishira/IMG_9013.jpg",
+    "holidays/sishira/IMG_9015.jpg",
+    "holidays/sishira/IMG_9016.jpg",
+    "holidays/sishira/IMG_9017.jpg",
+    "holidays/sishira/IMG_9018.jpg",
+    "holidays/sishira/IMG_9019.jpg",
+    "holidays/sishira/IMG_9020.jpg"],
+  "price": 12
+}

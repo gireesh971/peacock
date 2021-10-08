@@ -37,7 +37,7 @@ export class ItemDetailComponent implements OnInit {
   nextImage(): void {
     if (this.itemDetail != undefined) {
       this.imageIndex++;
-      if (this.imageIndex > this.itemDetail.images.length) {
+      if (this.imageIndex >= this.itemDetail.images.length) {
         this.imageIndex = 0;
       }
       this.currentImage = this.itemDetail.images[this.imageIndex];
