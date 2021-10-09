@@ -9,7 +9,9 @@ exec 2>&1
 
 echo "Starting the init script execution"
 date
-yum install -y git
+
+sudo yum install -y git
+
 # Standard git pull
 echo "Standard git pull"
 echo "My working directory is ${BASE_DIR}"
@@ -18,8 +20,8 @@ git clone https://github.com/gireesh971/peacock.git
 cd peacock
 git pull
 
-docker build -it peacock .
+docker build -t peacock .
 
-docker -d docker run -d -it -p 80:80 peacock
+docker run -d -it -p 80:80 peacock
 echo "Completed the init script execution"
 date

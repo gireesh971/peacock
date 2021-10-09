@@ -7,7 +7,6 @@ Web Server
 source <(curl -s https://raw.githubusercontent.com/gireesh971/peacock/main/scripts/web-init.sh)
 #!/bin/bash <(curl -s http://mywebsite.com/myscript.txt)
 
-
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
