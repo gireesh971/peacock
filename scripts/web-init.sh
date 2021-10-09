@@ -9,6 +9,7 @@ exec 2>&1
 
 echo "Starting the init script execution"
 date
+yum install -y git
 # Standard git pull
 echo "Standard git pull"
 echo "My working directory is ${BASE_DIR}"
