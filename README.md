@@ -5,7 +5,7 @@ Include following lines in EC2 instance user data
 Web Server
 ----------
 source <(curl -s https://raw.githubusercontent.com/gireesh971/peacock/main/scripts/web-init.sh)
-#!/bin/bash <(curl -s http://mywebsite.com/myscript.txt)
+#!/bin/bash <(curl -s https://raw.githubusercontent.com/gireesh971/peacock/main/scripts/web-init.sh)
 
 ## Development server
 
