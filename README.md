@@ -1,6 +1,12 @@
 # Peacock
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.6.
+Include following lines in EC2 instance user data
+
+Web Server
+----------
+#!/bin/bash
+wget -O - https://github.com/gireesh971/peacock/blob/main/scripts/web-init.sh | bash
+
 
 ## Development server
 
