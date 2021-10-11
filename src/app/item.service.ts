@@ -4,6 +4,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { catchError, map, tap } from 'rxjs/operators';
 
 import { Item } from './item';
+import {Category} from './category';
 import { ItemDetail } from './item-detail'
 import { MessageService } from './message.service';
 
@@ -14,11 +15,11 @@ export class ItemService {
 
   constructor(private http: HttpClient, private messageService: MessageService) { }
 
-  getItems(): Observable<Item[]> {
-    return this.http.get<Item[]>(this.itemsUrl)
+  getItems(): Observable<Category[]> {
+    return this.http.get<Category[]>(this.itemsUrl)
         .pipe(
-            tap(_ => this.log('fetched heroes')),
-            catchError(this.handleError<Item[]>('getHeroes', []))
+            tap(_ => this.log('fetched categories')),
+            catchError(this.handleError<Category[]>('getHeroes', []))
         );
   }
 

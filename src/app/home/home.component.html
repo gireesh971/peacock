@@ -1,29 +1,33 @@
-<script src="../item-detail/item-detail.component.ts"></script>
-<div class="grid">
-    <div class="gutter-sizer"></div>
-    <div class="grid-sizer"></div>
-    <div *ngFor="let item of items">
-        <div class="grid-item" float="left" >
-            <img class="img-responsive" alt="" src="./assets/images/{{item.image}}">
-            <a routerLink="/detail/{{item.id}}" class="project-description">
-                <div class="project-text-holder">
-                    <div class="project-text-inner">
-                        <h3>{{item.name}}</h3>
-                        <p>{{item.description}}</p>
+<div class="gutter-sizer"></div>
+<div class="grid-sizer"></div>
+<div *ngFor="let category of categories">
+    <div class="category-banner" role="alert" (click)="category.visible = !category.visible">
+        <h4 *ngIf="! category.visible" class="category-banner-text">{{category.category}} &#9660; </h4>
+        <h4 *ngIf="category.visible" class="category-banner-text">{{category.category}} &#9650; </h4>
+    </div>
+    <div *ngIf="category.visible" style="float: left;">
+        <div  *ngFor="let item of category.items">
+            <div class="grid-item" float="left" >
+                <img class="img-responsive" alt="" src="./assets/images/{{item.image}}">
+                <a routerLink="/detail/{{item.id}}" class="project-description">
+                    <div class="project-text-holder">
+                        <div class="project-text-inner">
+                            <h3>{{item.name}}</h3>
+                            <p>{{item.description}}</p>
+                        </div>
                     </div>
-                </div>
-            </a>
-            <table class="t_width">
-                <tr class="t_width">
-                    <td><h3 class="n_left">{{item.name}}</h3>
-                    <h3 class="n_center">{{item.category}}</h3>
-                    <h3 class="n_right">${{item.price}}</h3></td>
-                </tr>
-                <tr>
-                    <td><p>{{item.description}}</p></td>
-                </tr>
-            </table>
-
+                </a>
+                <table class="t_width">
+                    <tr class="t_width">
+                        <td><h3 class="n_left">{{item.name}}</h3>
+                            <h3 class="n_center">{{item.category}}</h3>
+                            <h3 class="n_right">${{item.price}}</h3></td>
+                    </tr>
+                    <tr>
+                        <td><p>{{item.description}}</p></td>
+                    </tr>
+                </table>
+            </div>
         </div>
     </div>
 </div>

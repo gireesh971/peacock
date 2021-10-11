@@ -3276,6 +3276,20 @@ a.badge:focus,a.badge:hover{
 .alert-info .alert-link{
     color:#245269
 }
+.category-banner{
+    border-width: 2px;
+    background-color: aliceblue;
+    border-color: plum;
+    color:#31708f;
+    width: 99.5%;
+    padding:8px;
+    margin-bottom:5px;
+    border-radius:2px;
+    float: bottom;
+}
+h4.category-banner-text{
+    color: coral;
+}
 .alert-warning{
     background-color:#fcf8e3;
     border-color:#faebcc;

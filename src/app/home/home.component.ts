@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Item } from '../item';
+import { Category } from '../category';
 import { ItemService } from '../item.service';
 import { MessageService } from '../message.service';
 
@@ -10,7 +11,7 @@ import { MessageService } from '../message.service';
 })
 export class HomeComponent implements OnInit {
 
-  items: Item[] = [];
+  categories: Category[] = [];
 
   constructor(private itemService: ItemService, private messageService: MessageService) {}
 
@@ -19,6 +20,8 @@ export class HomeComponent implements OnInit {
   }
   getItems(): void {
     this.itemService.getItems()
-        .subscribe(items => this.items = items);
+        .subscribe(categories => {
+          this.categories = categories;
+        });
   }
 }
