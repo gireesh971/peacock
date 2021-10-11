@@ -3281,8 +3281,8 @@ a.badge:focus,a.badge:hover{
     background-color: aliceblue;
     border-color: plum;
     color:#31708f;
-    width: 99.5%;
-    padding:8px;
+    width: 99%;
+    padding:1px 1px 1px 10px;
     margin-bottom:5px;
     border-radius:2px;
     float: left;
