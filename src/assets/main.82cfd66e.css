@@ -3285,7 +3285,7 @@ a.badge:focus,a.badge:hover{
     padding:8px;
     margin-bottom:5px;
     border-radius:2px;
-    float: bottom;
+    float: left;
 }
 h4.category-banner-text{
     color: coral;
