@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
+
 import { Item } from '../item';
 import { Category } from '../category';
 import { ItemService } from '../item.service';
@@ -13,7 +15,11 @@ export class HomeComponent implements OnInit {
 
   categories: Category[] = [];
 
-  constructor(private itemService: ItemService, private messageService: MessageService) {}
+  constructor(private itemService: ItemService,
+              private messageService: MessageService,
+              private titleService: Title) {
+    this.titleService.setTitle("Peacock & Lotus -> Products");
+  }
 
   ngOnInit(): void {
     this.getItems();
