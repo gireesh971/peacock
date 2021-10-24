@@ -2,45 +2,45 @@
   {
     "category":  "Earthy line",
     "items": [
-      { "id": 1, "name": "Devi", "description": "A entwined blend of Jasmine , wood and patchouli", "image": "earthy/devi/IMG_8911.jpg", "price" : 12 },
-      { "id": 2, "name": "Kanmani", "description": "A entwined blend of Jasmine , wood and patchouli", "image": "earthy/kanmani/IMG_8983.jpg", "price" : 12 },
-      { "id": 3, "name": "Swarg", "description": "A entwined blend of Jasmine , wood and patchouli", "image": "earthy/swarg/IMG_4743.jpg", "price" : 12 },
-      { "id": 4, "name": "Thira", "description": "A entwined blend of Jasmine , wood and patchouli", "image": "earthy/thira/IMG_8536.jpg", "price" : 12 }
+      { "id": 1, "name": "Devi", "description": "The goddess in you", "image": "earthy/devi/IMG_8911.jpg", "price" : 12 },
+      { "id": 2, "name": "Kanmani", "description": "Apple of my eye ", "image": "earthy/kanmani/IMG_8983.jpg", "price" : 12 },
+      { "id": 3, "name": "Swarg", "description": "The paradise", "image": "earthy/swarg/IMG_4743.jpg", "price" : 12 },
+      { "id": 4, "name": "Thira", "description": "Waves beckon", "image": "earthy/thira/IMG_8536.jpg", "price" : 12 }
     ],
     "visible" : true
   },
   {
     "category":  "Floral line",
     "items": [
-      { "id": 5, "name": "Maya", "description": "Cherry blossom, lily of the valley, magnolia", "image": "fresh-floral/maya/IMG_9025.jpg", "price" : 12 },
-      { "id": 6, "name": "Bhoomi", "description": "Cherry blossom, lily of the valley, magnolia", "image": "fresh-floral/bhoomi/IMG_8545.jpg", "price" : 12 }
+      { "id": 5, "name": "Maya", "description": "An illussion", "image": "fresh-floral/maya/IMG_9025.jpg", "price" : 12 },
+      { "id": 6, "name": "Bhoomi", "description": "Your own zen", "image": "fresh-floral/bhoomi/IMG_8545.jpg", "price" : 12 }
     ],
     "visible" : true
   },
   {
     "category":  "Fruity",
     "items": [
-      { "id": 7, "name": "Lalita", "description": "Cherry blossom, lily of the valley, magnolia", "image": "fruity/lalitha/IMG_1356.jpg", "price" : 12 },
-      { "id": 8, "name": "Tangy", "description": "Cherry blossom, lily of the valley, magnolia", "image": "fruity/tangy/IMG_1897.jpg", "price" : 12 },
-      { "id": 9, "name": "Thangam", "description": "Cherry blossom, lily of the valley, magnolia", "image": "fruity/thangam/IMG_2001.jpg", "price" : 12 }
+      { "id": 7, "name": "Lalita", "description": "Simply heavenly ", "image": "fruity/lalitha/IMG_1356.jpg", "price" : 12 },
+      { "id": 8, "name": "Tangy", "description": "Twisy citrus sherbet", "image": "fruity/tangy/IMG_1897.jpg", "price" : 12 },
+      { "id": 9, "name": "Thangam", "description": "Shimmering gold", "image": "fruity/thangam/IMG_2001.jpg", "price" : 12 }
     ],
     "visible" : true
   },
   {
     "category":  "Holidays",
     "items": [
-      { "id": 11, "name": "Sishira", "description": "Cherry blossom, lily of the valley, magnolia", "image": "holidays/sishira/IMG_9014.jpg", "price" : 12 },
-      { "id": 10, "name": "Nidra", "description": "Cherry blossom, lily of the valley, magnolia", "image": "holidays/nidra/IMG_2001.jpg", "price" : 12 }
+      { "id": 11, "name": "Sishira", "description": "A walk in the winter", "image": "holidays/sishira/IMG_9014.jpg", "price" : 12 },
+      { "id": 10, "name": "Nidra", "description": "Cozy by fireplace", "image": "holidays/nidra/IMG_2001.jpg", "price" : 12 }
     ],
     "visible" : true
   },
   {
     "category":  "Seasonal",
     "items": [
-      { "id": 12, "name": "Chinaar", "description": "Cherry blossom, lily of the valley, magnolia", "image": "seasonal/chinaar/IMG_1001.jpg", "price" : 12 },
-      { "id": 13, "name": "Lal", "description": "Cherry blossom, lily of the valley, magnolia", "image": "seasonal/lal/IMG_1001.jpg", "price" : 12 },
-      { "id": 14, "name": "Mysterious", "description": "Cherry blossom, lily of the valley, magnolia", "image": "seasonal/mysterious/IMG_8571.jpg", "price" : 12 },
-      { "id": 15, "name": "Saro", "description": "Cherry blossom, lily of the valley, magnolia", "image": "seasonal/saro/IMG_1001.jpg", "price" : 12 }
+      { "id": 12, "name": "Chinaar", "description": "Maples and apples", "image": "seasonal/chinaar/IMG_1001.jpg", "price" : 12 },
+      { "id": 13, "name": "Lal", "description": "Apple harvest and crispy fall", "image": "seasonal/lal/IMG_1001.jpg", "price" : 12 },
+      { "id": 14, "name": "Mysterious", "description": "Could it be the bogeyman?", "image": "seasonal/mysterious/IMG_8571.jpg", "price" : 12 },
+      { "id": 15, "name": "Saro", "description": "Walk in woods", "image": "seasonal/saro/IMG_1001.jpg", "price" : 12 }
     ],
     "visible" : true
   }
