@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
+
 import { ItemDetail } from '../item-detail';
 import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
@@ -14,7 +16,8 @@ export class ItemDetailComponent implements OnInit {
 
   constructor(private route: ActivatedRoute,
               private itemService: ItemService,
-              private location: Location) { }
+              private location: Location,
+              private titleService: Title) { }
 
   ngOnInit(): void {
     this.getItem();
@@ -27,6 +30,9 @@ export class ItemDetailComponent implements OnInit {
           this.itemDetail = itemDetail;
           this.currentImage = this.itemDetail.images[0];
           this.imageIndex = 0;
+          this.titleService.setTitle("Peacock & Lotus -> "
+              + itemDetail.category + " -> "
+              + itemDetail.name);
         });
   }
 

@@ -2,8 +2,8 @@
 <div class="grid-sizer"></div>
 <div *ngFor="let category of categories">
     <div class="category-banner" role="alert" (click)="category.visible = !category.visible">
-        <h4 *ngIf="! category.visible" class="category-banner-text">{{category.category}} &#9660; </h4>
-        <h4 *ngIf="category.visible" class="category-banner-text">{{category.category}} &#9650; </h4>
+        <h4 *ngIf="! category.visible" class="category-banner-text">{{category.category}} ... </h4>
+        <h4 *ngIf="category.visible" class="category-banner-text">{{category.category}}  </h4>
     </div>
     <div *ngIf="category.visible" style="float: left;">
         <div  *ngFor="let item of category.items">
