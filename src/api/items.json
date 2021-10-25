@@ -30,7 +30,8 @@
     "category":  "Holidays",
     "items": [
       { "id": 11, "name": "Sishira", "description": "A walk in the winter", "image": "holidays/sishira/IMG_9014.jpg", "price" : 12 },
-      { "id": 10, "name": "Nidra", "description": "Cozy by fireplace", "image": "holidays/nidra/IMG_2001.jpg", "price" : 12 }
+      { "id": 10, "name": "Nidra", "description": "Cozy by fireplace", "image": "holidays/nidra/IMG_2001.jpg", "price" : 12 },
+      { "id": 15, "name": "Saro", "description": "Walk in woods", "image": "holidays/saro/IMG_1001.jpg", "price" : 12 }
     ],
     "visible" : true
   },
@@ -38,9 +39,10 @@
     "category":  "Seasonal",
     "items": [
       { "id": 12, "name": "Chinaar", "description": "Maples and apples", "image": "seasonal/chinaar/IMG_1001.jpg", "price" : 12 },
-      { "id": 13, "name": "Lal", "description": "Apple harvest and crispy fall", "image": "seasonal/lal/IMG_1001.jpg", "price" : 12 },
       { "id": 14, "name": "Mysterious", "description": "Could it be the bogeyman?", "image": "seasonal/mysterious/IMG_8571.jpg", "price" : 12 },
-      { "id": 15, "name": "Saro", "description": "Walk in woods", "image": "seasonal/saro/IMG_1001.jpg", "price" : 12 }
+      { "id": 13, "name": "Kaddu Pie", "description": "Apple harvest and crispy fall", "image": "seasonal/kaddupie/IMG_01.jpg", "price" : 12 },
+      { "id": 16, "name": "Kaddu Chai", "description": "Apple harvest and crispy fall", "image": "seasonal/kadduchai/IMG01.jpg", "price" : 12 },
+      { "id": 17, "name": "GaramMasala", "description": "Apple harvest and crispy fall", "image": "seasonal/garammasala/IMG_01.jpg", "price" : 12 }
     ],
     "visible" : true
   }

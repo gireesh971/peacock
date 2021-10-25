@@ -1,12 +1,12 @@
 {
   "id": 2,
-  "name": "Kaddu Pie",
+  "name": "Kaddu Chai",
   "category":  "Seasonal",
   "description": "Cherry blossom, lily of the valley, magnolia",
   "story": "Maya….she’s an illusion. A rich meadow in spring , the flowers in full bloom. You love the gentle breeze when it brings the blend of flowers and young grass. Yet you cant place which is the smell you loved the most !",
   "images": [
-    "seasonal/kaddupie/IMG_01.jpg",
-    "seasonal/kaddupie/IMG_02.jpg",
-    "seasonal/kaddupie/IMG_03.jpg"],
+    "seasonal/kadduchai/IMG01.jpg",
+    "seasonal/kadduchai/IMG02.jpg",
+    "seasonal/kadduchai/IMG03.jpg"],
   "price": 12
 }

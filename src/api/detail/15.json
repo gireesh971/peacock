@@ -1,12 +1,12 @@
 {
   "id": 2,
   "name": "Saro",
-  "category":  "Seasonal",
+  "category":  "Holidays",
   "description": "Cherry blossom, lily of the valley, magnolia",
   "story": "Maya….she’s an illusion. A rich meadow in spring , the flowers in full bloom. You love the gentle breeze when it brings the blend of flowers and young grass. Yet you cant place which is the smell you loved the most !",
   "images": [
-    "seasonal/saro/IMG_1001.jpg",
-    "seasonal/saro/IMG_1002.jpg",
-    "seasonal/saro/IMG_1003.jpg"],
+    "holidays/saro/IMG_1001.jpg",
+    "holidays/saro/IMG_1002.jpg",
+    "holidays/saro/IMG_1003.jpg"],
   "price": 12
 }
