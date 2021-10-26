@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { Title } from '@angular/platform-browser';
 
 import { ItemDetail } from '../item-detail';
 import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
 
 import { ItemService } from '../item.service';
+import { TitleService } from '../title.service';
 
 @Component({
   selector: 'app-item-detail',
@@ -17,7 +17,7 @@ export class ItemDetailComponent implements OnInit {
   constructor(private route: ActivatedRoute,
               private itemService: ItemService,
               private location: Location,
-              private titleService: Title) { }
+              private titleService: TitleService) { }
 
   ngOnInit(): void {
     this.getItem();

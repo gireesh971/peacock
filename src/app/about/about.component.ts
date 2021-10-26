@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Title } from '@angular/platform-browser';
+import { TitleService } from '../title.service';
 
 @Component({
   selector: 'app-about',
@@ -8,7 +8,7 @@ import { Title } from '@angular/platform-browser';
 })
 export class AboutComponent implements OnInit {
 
-  constructor(private titleService: Title) {
+  constructor(private titleService: TitleService) {
     this.titleService.setTitle("Peacock & Lotus -> About Us");
   }
 
