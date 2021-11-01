@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { Title } from '@angular/platform-browser';
 
 import { Item } from '../item';
 import { Category } from '../category';
 import { ItemService } from '../item.service';
 import { MessageService } from '../message.service';
+import { TitleService } from '../title.service';
+
 
 @Component({
   selector: 'app-home',
@@ -17,7 +18,7 @@ export class HomeComponent implements OnInit {
 
   constructor(private itemService: ItemService,
               private messageService: MessageService,
-              private titleService: Title) {
+              private titleService: TitleService) {
     this.titleService.setTitle("Peacock & Lotus -> Products");
   }
 
