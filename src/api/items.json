@@ -13,7 +13,8 @@
     "category":  "Floral line",
     "items": [
       { "id": 5, "name": "Maya", "description": "An illussion", "image": "fresh-floral/maya/IMG_9025.jpg", "price" : 12 },
-      { "id": 6, "name": "Bhoomi", "description": "Your own zen", "image": "fresh-floral/bhoomi/IMG_8545.jpg", "price" : 12 }
+      { "id": 6, "name": "Bhoomi", "description": "Your own zen", "image": "fresh-floral/bhoomi/IMG_8545.jpg", "price" : 12 },
+      { "id": 18, "name": "Shakti", "description": "You are stronger than you think", "image": "fresh-floral/shakti/IMG_02.jpg", "price" : 12 }
     ],
     "visible" : true
   },
@@ -31,7 +32,7 @@
     "items": [
       { "id": 11, "name": "Sishira", "description": "A walk in the winter", "image": "holidays/sishira/IMG_9014.jpg", "price" : 12 },
       { "id": 10, "name": "Nidra", "description": "Cozy by fireplace", "image": "holidays/nidra/IMG_2001.jpg", "price" : 12 },
-      { "id": 15, "name": "Saro", "description": "Walk in woods", "image": "holidays/saro/IMG_1001.jpg", "price" : 12 }
+      { "id": 15, "name": "Saro", "description": "Christmas time !", "image": "holidays/saro/IMG_1001.jpg", "price" : 12 }
     ],
     "visible" : true
   },
@@ -40,10 +41,17 @@
     "items": [
       { "id": 12, "name": "Chinaar", "description": "Maples and apples", "image": "seasonal/chinaar/IMG_1001.jpg", "price" : 12 },
       { "id": 14, "name": "Mysterious", "description": "Could it be the bogeyman?", "image": "seasonal/mysterious/IMG_8571.jpg", "price" : 12 },
-      { "id": 13, "name": "Kaddu Pie", "description": "Apple harvest and crispy fall", "image": "seasonal/kaddupie/IMG_01.jpg", "price" : 12 },
-      { "id": 16, "name": "Kaddu Chai", "description": "Apple harvest and crispy fall", "image": "seasonal/kadduchai/IMG01.jpg", "price" : 12 },
-      { "id": 17, "name": "GaramMasala", "description": "Apple harvest and crispy fall", "image": "seasonal/garammasala/IMG_01.jpg", "price" : 12 }
+      { "id": 13, "name": "Kaddu Pie", "description": "Pumpkin spice and everything nice", "image": "seasonal/kaddupie/IMG_01.jpg", "price" : 12 },
+      { "id": 16, "name": "Kaddu Chai", "description": "Spicy Pumpkin Latte", "image": "seasonal/kadduchai/IMG01.jpg", "price" : 12 },
+      { "id": 17, "name": "GaramMasala", "description": "All things nice, sweet and spice", "image": "seasonal/garammasala/IMG_01.jpg", "price" : 12 }
     ],
+    "visible" : true
+  },
+  {
+    "category":  "TOHFA -The fine art of gifting",
+    "items": [
+      { "id": 12, "name": "Friends&Family", "description": "gifting for friends and family", "image": "seasonal/chinaar/IMG_1001.jpg", "price" : 12 },
+      { "id": 14, "name": "Teachers", "description": "for teachers and co-workers", "image": "seasonal/mysterious/IMG_8571.jpg", "price" : 12 }],
     "visible" : true
   }
 ]
